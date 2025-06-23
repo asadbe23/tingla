@@ -31,6 +31,7 @@ body {
   margin-top: 154px;
   margin-bottom: 27px;
 }
+
 .hero_left p {
   font-family: SF Pro Display;
   font-weight: 400;
@@ -39,6 +40,7 @@ body {
   letter-spacing: 0%;
   margin-bottom: 60px;
 }
+
 .hero_left button {
   width: 180px;
   height: 60px;
@@ -61,6 +63,7 @@ body {
   overflow: hidden;
   margin-top: 168px;
 }
+
 .one_content .shadow {
   height: 500px;
   width: 100%;
@@ -75,6 +78,7 @@ body {
   left: 0;
   top: 0;
 }
+
 .one_content img {
   height: 500px;
   width: 100%;
@@ -101,11 +105,13 @@ body {
   font-size: 50px;
   margin-bottom: 30px;
 }
+
 .two_left p {
   font-size: 20px;
   line-height: 34px;
   letter-spacing: 0%;
 }
+
 .two_right img {
   margin-top: -206px;
 }
@@ -123,6 +129,7 @@ body {
   letter-spacing: -1%;
   margin-bottom: 30px;
 }
+
 .three_right p {
   font-weight: 500;
   font-size: 20px;
@@ -136,15 +143,18 @@ body {
   background: #f9e0c7;
   height: 480px;
 }
+
 .four_content .two_left {
   height: 480px;
   color: black;
 }
+
 .four_content .two_right {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .four_content img {
   width: 412px;
   margin-top: -230px;
@@ -157,14 +167,17 @@ body {
   display: flex;
   margin-bottom: 170px;
 }
+
 .five_left {
   padding: 0px 60px;
 }
+
 .five_right {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .five_right h2 {
   font-weight: 600;
   font-size: 40px;
@@ -200,6 +213,7 @@ body {
   letter-spacing: 0%;
   list-style: none;
 }
+
 .footer_center li {
   margin-bottom: 16px;
 }
@@ -215,6 +229,7 @@ body {
   color: black;
   font-size: 24px;
 }
+
 .f_phone p {
   font-weight: 400;
   font-size: 14px;
@@ -223,6 +238,7 @@ body {
   color: #00000080;
   margin-bottom: 4px;
 }
+
 .f_phone span {
   font-weight: 500;
   font-size: 18px;
@@ -238,138 +254,167 @@ body {
   color: black;
   font-size: 24px;
 }
-@media(max-width:768px){
-  .container{
+
+@media(max-width:768px) {
+  .container {
     padding: 0px 24px;
   }
+
   .navbar {
-  margin-top: 81px;
-}
-.hero_content {
-  flex-direction: column-reverse;
-}
+    margin-top: 81px;
+  }
 
-.hero_left h1 {
-  font-size: 36px;
-  letter-spacing: 0%;
-  margin-top: 11px;
-  margin-bottom: 16px;
-}
-.hero_left p {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 32px;
-  margin-bottom: 28px;
-}
-.hero_left button {
-  width: 151px;
-  height: 60px;
-  border-radius: 8px;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: -1%;
-}
-.one_content {
-  height: 220px;
-  border-radius: 10px;
-  margin-top: 134px;
-}
-.one_content .shadow {
-  height: 220px;
-  font-size: 40px;
-}
-.one_content img {
-  height: 220px;
-}
-.two_content {
-  margin-top: 274px;
-  border-radius: 10px;
-  height: max-content;
-  flex-direction: column-reverse;
-}
+  .hero_content {
+    flex-direction: column-reverse;
+  }
 
-.two_left {
-  padding: 14px 24px 36px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: white;
-  font-weight: 500;
-}
+  .hero_left h1 {
+    font-size: 36px;
+    letter-spacing: 0%;
+    margin-top: 11px;
+    margin-bottom: 16px;
+  }
 
-.two_left h2 {
-  font-size: 26px;
-  margin-bottom: 16px;
-}
-.two_left p {
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0%;
-}
-.two_right img {
-  margin-top: -156px;
-  padding: 10px 0px 10px;
-}
+  .hero_left p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 28px;
+  }
 
-.three_content {
-  margin-top: 78px;
-display: flex;
-flex-wrap: wrap;
-}
+  .hero_left button {
+    width: 151px;
+    height: 60px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: -1%;
+  }
+
+  .hero_right img {
+    width: 100% !important;
+  }
+
+  .one_content {
+    height: 220px;
+    border-radius: 10px;
+    margin-top: 134px;
+  }
+
+  .one_content .shadow {
+    height: 220px;
+    font-size: 40px;
+  }
+
+  .one_content img {
+    height: 220px;
+    width: 100%;
+  }
+
+  .two_content {
+    margin-top: 274px;
+    border-radius: 10px;
+    height: max-content;
+    flex-direction: column-reverse;
+  }
+
+  .two_left {
+    padding: 14px 24px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+  }
+
+  .two_left h2 {
+    font-size: 26px;
+    margin-bottom: 16px;
+  }
+
+  .two_left p {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0%;
+  }
+
+  .two_right img {
+    margin-top: -156px;
+    padding: 10px 0px 10px;
+    width: 100%;
+  }
+
+  .three_content {
+    margin-top: 78px;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .three_content img {
+    width: 100%;
+  }
 
 
-.three_right h2 {
-  margin-top: 82px;
-}
-.four_content {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: ;
-}
-.four_content h2{
-  margin-top: 21px;
-  margin-bottom: 15px;
-font-weight: 600;
-font-size: 26px;
-line-height: 32px;
-letter-spacing: -1%;
-}
-.four_content p{
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0%;
+  .three_right h2 {
+    margin-top: 82px;
+  }
 
-}
+  .four_content {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: ; */
+  }
 
-.five_content {
-  display: flex;
-  flex-wrap: wrap;
-}
-.five_left{
-  padding: 0px 60px;
-}
+  .four_content h2 {
+    margin-top: 21px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: -1%;
+  }
 
-.five_right h2 {
-  margin-top: 32px;
-  padding: 24px 0px 24px;
-  text-align: center;
-font-weight: 600;
-font-size: 26px;
-line-height: 36px;
-letter-spacing: 0%;
-}
-.five_brands{
-  margin-top: 32px;
-  justify-content: center;
-}
+  .four_content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0%;
 
-.footer_content {
-  display: flex;
-  flex-wrap: wrap;
-}
-.footer_center{
-  
-}
+  }
+
+  .five_content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .five_left {
+    padding: 0px 60px;
+  }
+
+  .five_left img{
+    width: 100%;
+  }
+
+  .five_right h2 {
+    margin-top: 32px;
+    padding: 24px 0px 24px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 0%;
+  }
+
+  .five_brands {
+    margin-top: 32px;
+    justify-content: center;
+  }
+
+  .footer_content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
 }
